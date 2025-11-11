@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cabecalho strong{
+  color: #E8891C;
+}
+
+.logo {
+  width: 300px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.tentativasContainer {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  align-items: center;
+  padding: 0 10px;
+  padding-bottom: 40px;
+}
+
+.tentativas {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1em;
+  color: #C3C3C3;
+  margin: 0;
+}
+
+.refresh {
+  color: #6363DB;
+  font-size: 1.2em;
+  cursor: pointer;
+}

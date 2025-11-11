@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+.dica {
+  text-align: left;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #e5e5f9;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  color: #6363DB;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.dicaContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.dicaTitle {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #6363DB;
+  margin: 0;
+}
+
+.dicaText {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.1em;
+  color: #6363DB;
+  margin: 0;
+}

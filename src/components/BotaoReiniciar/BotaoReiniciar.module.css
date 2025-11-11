@@ -1,0 +1,22 @@
+.botaoReiniciar {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.botaoReiniciar button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #a91b0a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botaoReiniciar button:hover {
+  background-color: #4a4f99;
+}

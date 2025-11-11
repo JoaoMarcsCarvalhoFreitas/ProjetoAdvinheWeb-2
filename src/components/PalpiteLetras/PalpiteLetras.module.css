@@ -1,0 +1,35 @@
+.palpiteLetras {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.palpiteLetras span {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #e5e5f9;
+  font-size: 1.2em;
+  color: #000000;
+}
+
+.palpiteLetras .verde {
+  background-color: #E1F5EC;
+  color: #03a84f;
+  border-color: #E1F5EC;
+}
+
+.palpiteLetras .amarelo {
+  background-color: #FFCF62;
+  color: #E8891C;
+  border-color: #FFCF62;
+}

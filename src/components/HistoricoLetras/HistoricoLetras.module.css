@@ -1,0 +1,46 @@
+.historicoLetras {
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-top: 2px solid #F5F5FA;
+}
+
+.historicoLetras p {
+  font-size: 1.1em;
+  color: #4a4f99;
+  margin-bottom: 10px;
+}
+
+.historicoLetras div {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.historicoLetras span {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  color: #000000;
+  min-width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.historicoLetras .verde {
+  background-color: #E1F5EC;
+  color: #03a84f;
+  border-color: #E1F5EC;
+  border: 2px solid #03a84f;
+}
+
+.historicoLetras .amarelo {
+  background-color: #FFCF62;
+  color: #000000;
+  border-color: #FFCF62;
+}
